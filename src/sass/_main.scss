@@ -1,0 +1,42 @@
+.search-form {
+    background-color: pink;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.search-form > button {
+    background-color: rgb(212, 100, 119);
+    color: white;
+    cursor: pointer;
+}
+
+.load-more {
+    background-color: rgb(212, 100, 119);
+    color: white;
+    font-size: 30px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+.load-more.is-hidden {
+    display: none;
+}
+.info-item {
+    font-size: 15px;
+    margin-top: 25px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    //margin-left: -10px;
+    margin-bottom: -10px;
+}
+.photo-card {
+    flex-basis: calc(100% / 4 - 10px);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
